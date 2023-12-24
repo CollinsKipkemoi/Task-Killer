@@ -9,7 +9,7 @@ function App() {
     <div className='appContainer'>
         <Header />
         <Input />
-        List
+        <List />
     </div>
   )
 }

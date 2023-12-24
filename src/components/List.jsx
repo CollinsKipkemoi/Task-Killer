@@ -1,6 +1,9 @@
 function List() {
+
   return (
-    <div>List</div>
+    <div className="listContainer">
+    {}
+    </div>
   )
 }
 

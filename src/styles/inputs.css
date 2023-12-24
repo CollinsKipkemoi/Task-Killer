@@ -20,7 +20,7 @@ input{
     outline: none;
     border: 1px solid tomato;
     margin: 0 10px;
-    box-shadow: 0 0 5px tomato;
+    box-shadow: 0 0 7px tomato;
     font-family: inherit;
 }
 button{
@@ -30,6 +30,7 @@ button{
     bottom: 0;
     right: 20px;
     background: tomato;
+    margin-bottom: 8px;
 }
 
 button:active, button:focus, button:hover {
