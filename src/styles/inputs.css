@@ -1,0 +1,38 @@
+.inputContainer{
+    /* border: 1px solid gold; */
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #444444;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid tomato;
+    margin: 0 10px;
+    box-shadow: 0 0 5px tomato;
+    font-family: inherit;
+}
+button{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    background: tomato;
+}
+
+button:active, button:focus, button:hover {
+    outline: none;
+    border: none;
+}
