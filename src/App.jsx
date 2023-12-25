@@ -1,7 +1,6 @@
 import './App.css'
 import Header from './components/Header'
 import Input from './components/Input'
-import List from './components/List'
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
     <div className='appContainer'>
         <Header />
         <Input />
-        <List />
     </div>
   )
 }

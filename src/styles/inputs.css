@@ -14,7 +14,7 @@
 
 }
 
-input{
+.inputContainer input{
     padding: 5px;
     border-radius: 5px;
     outline: none;
@@ -23,7 +23,7 @@ input{
     box-shadow: 0 0 7px tomato;
     font-family: inherit;
 }
-button{
+.add{
     width: fit-content;
     height: fit-content;
     position: absolute;
@@ -33,7 +33,11 @@ button{
     margin-bottom: 8px;
 }
 
-button:active, button:focus, button:hover {
+.add:active, .add:focus, .add:hover {
     outline: none;
     border: none;
+}
+
+.listContainer{
+    width: 70%;
 }
